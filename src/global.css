@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --inter-semi-bold-14: Inter;
+
+  /* font sizes */
+  --inter-semi-bold-22-size: 22px;
+  --inter-semi-bold-14-size: 14px;
+
+  /* Colors */
+  --white-opacity-20: rgba(255, 255, 255, 0.2);
+  --black-linear-black-2000-100: #000;
+  --gray-linear-gray-2000-bbbbb: #bbb;
+  --yeallow-linear-yellow-2000-gradient-button: #ffea7c;
+  --red-solid-red-50-ff8b7b: #ff8b7b;
+  --color-darkgray: #adadad;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-981xl: 1000px;
+  --br-5xs: 8px;
+}

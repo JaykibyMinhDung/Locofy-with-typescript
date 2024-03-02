@@ -1,0 +1,187 @@
+.image2 {
+  width: 39px;
+  height: 48px;
+}
+.atcGroup,
+.image2 {
+  position: relative;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.whatIsYour {
+  width: 130px;
+  position: relative;
+  display: none;
+}
+.username {
+  position: relative;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  gap: 4px 0;
+}
+.yourEmail {
+  width: 69px;
+  position: relative;
+  display: none;
+}
+.gr2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.forgotPassword,
+.primaryColor {
+  background: linear-gradient(180deg, #ffea7c, #f7c500);
+}
+.forgotPassword {
+  position: relative;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.primaryColor {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-981xl);
+  z-index: 0;
+}
+.redColor {
+  background-color: var(--red-solid-red-50-ff8b7b);
+  z-index: 1;
+}
+.disabledColor,
+.outlinePrimaryColor,
+.redColor {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-981xl);
+  display: none;
+}
+.outlinePrimaryColor {
+  border: 1px solid var(--yeallow-linear-yellow-2000-gradient-button);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.disabledColor {
+  background-color: var(--white-opacity-20);
+  z-index: 3;
+}
+.blackText1,
+.grayText {
+  position: relative;
+  font-weight: 600;
+}
+.grayText {
+  width: 479px;
+  color: var(--gray-linear-gray-2000-bbbbb);
+  display: none;
+  z-index: 4;
+}
+.blackText1 {
+  flex: 1;
+  z-index: 5;
+}
+.blackText2,
+.yellowText {
+  width: 235.5px;
+  position: relative;
+  font-weight: 600;
+  display: none;
+  z-index: 6;
+}
+.yellowText {
+  width: 154.3px;
+  background: linear-gradient(180deg, #ffea7c, #f7c500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 7;
+}
+.buttonLarge {
+  align-self: stretch;
+  border-radius: var(--br-981xl);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 0 8px;
+  text-align: center;
+  font-size: var(--inter-semi-bold-22-size);
+}
+.gr2Parent,
+.logoParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gr2Parent {
+  width: 584px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(80px);
+  align-items: flex-start;
+  padding: var(--padding-13xl) var(--padding-13xl) 40px;
+  box-sizing: border-box;
+  gap: 32px 0;
+  font-size: var(--inter-semi-bold-14-size);
+  color: var(--black-linear-black-2000-100);
+}
+.logoParent {
+  align-items: center;
+  gap: 176px 0;
+}
+.adminLoginPlugin {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 88px 0;
+  box-sizing: border-box;
+  background-image: url(/public/admin-login--plugin@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 26px;
+  color: var(--color-white);
+  font-family: var(--inter-semi-bold-14);
+}
